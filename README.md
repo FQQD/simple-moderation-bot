@@ -9,11 +9,13 @@ A simple moderation Discord bot written in Python with disnake.py for self hosti
 Follow these steps to install the bot on Ubuntu Server:
 
 ```bash
-  sudo apt install python3 pip3 git screen nano -y
+  sudo apt install python3 pip git screen nano -y
   git clone https://github.com/FQQD/simple-moderation-bot.git
   cd simple-moderation-bot
   mkdir warnings
   sudo chmod +x start.sh
+  pip3 install disnake
+  pip3 install aiofiles
 ```
 
 Set up an application in the discord developer portal, if you don't know how, read
