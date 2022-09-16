@@ -568,7 +568,7 @@ async def help(inter):
 async def credit(inter):
     embed = disnake.Embed (
         title="FQQDs Moderation Bot - Credits",
-        description=f'Bot coded by FQQD#2557\nGithub: https://githublinkmussichnochmachen.irgendwas\nhttps://www.FQQD.de',
+        description=f'Bot coded by FQQD#2557\nGithub: https://github.com/FQQD/simple-moderation-bot/\nhttps://www.FQQD.de',
         colour = defaultembedcolor
     )
     
