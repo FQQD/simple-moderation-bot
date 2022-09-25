@@ -65,7 +65,7 @@ See the credits of the bots
 
 /avatar
 
-Show and download the profile pictue of a user
+Show and download the profile picture of a user
 
 /help
 
