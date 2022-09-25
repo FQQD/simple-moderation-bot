@@ -558,7 +558,7 @@ async def help(inter):
     )
     
     embed.add_field(name="/credit", value="See the credits of the bots", inline=False)
-    embed.add_field(name="/avatar", value="Show and download the profile pictue of a user", inline=False)
+    embed.add_field(name="/avatar", value="Show and download the profile picture of a user", inline=False)
     embed.add_field(name="/help", value="Show this list", inline=False)
     
     
@@ -576,7 +576,7 @@ async def credit(inter):
     await inter.send(embed=embed) 
     
     
-@Bot.slash_command(name="avatar", description="Show and download the profile pictue of a user")
+@Bot.slash_command(name="avatar", description="Show and download the profile picture of a user")
 async def avatar(inter, member:disnake.Member):
     embed = disnake.Embed(
         title=f"Avatar of {member.name}#{member.discriminator}",
